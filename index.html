@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Message Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Get In Touch</h1>
+        <p>
+          We'd love to hear from you. Send us a message and we'll respond as
+          soon as posssible
+        </p>
+      </header>
+      <form>
+        <label for="fname">First Name</label><br />
+        <input type="text" id="fname" name="fname" placeholder="john Doe"><br />
+        <label for="email">Email Address</label><br />
+        <input type="email"  id="email" name="email" placeholder="john@example.com"><br />
+        <label for="subject">Subject</label><br />
+        <select id="subject" name="subject">
+          <option value=""selected disabled>Select a subject</option>
+          <option value="Math">Math</option>
+          <option value="science">Science</option>
+          <option value="History">History</option>
+          <option value="English">English</option>
+        </select>
+        <br />
+        <label for="message">Message</label><br />
+        <textarea type="text" id="message"name="message" rows="5" placeholder="your message here"></textarea> <br />
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </body>
+</html>
